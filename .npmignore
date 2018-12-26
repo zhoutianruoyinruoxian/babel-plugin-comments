@@ -1,0 +1,15 @@
+.history
+.DS_Store
+src
+test
+
+#config file
+.editorconfig
+babel.config.js
+karma.conf.js
+.eslintrc.js
+
+
+__snapshots__
+yarn.lock
+package-lock.json
