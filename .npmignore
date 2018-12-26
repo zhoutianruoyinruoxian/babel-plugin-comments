@@ -12,4 +12,5 @@ karma.conf.js
 
 __snapshots__
 yarn.lock
+yarn-error.log
 package-lock.json
