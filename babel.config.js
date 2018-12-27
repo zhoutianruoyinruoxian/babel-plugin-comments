@@ -24,6 +24,12 @@ module.exports = {
     //   }
     // ],
     [
+      "comments",
+      {
+        "remove": "CommentBlock",
+      }
+    ],
+    [
       "@babel/plugin-transform-runtime",
       {
         "corejs": false,

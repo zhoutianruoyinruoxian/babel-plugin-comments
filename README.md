@@ -23,7 +23,7 @@ yarn add -D babel-plugin-comments
 
 Possible value:
 
-**all** : all comments will be removed;
+**all** (default): all comments will be removed;
 
 **CommentLine** : commentline will be removed(such as: ```//example```)
 
