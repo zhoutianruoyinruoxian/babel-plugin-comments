@@ -23,12 +23,12 @@ module.exports = {
     //     loose,
     //   }
     // ],
-    [
-      "comments",
-      {
-        "remove": "CommentBlock",
-      }
-    ],
+    // [
+    //   "comments",
+    //   {
+    //     "remove": "all",
+    //   }
+    // ],
     [
       "@babel/plugin-transform-runtime",
       {

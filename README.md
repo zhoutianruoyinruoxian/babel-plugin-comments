@@ -1,3 +1,5 @@
+
+
 babel-plugin-comments
 =========================
 
@@ -19,19 +21,23 @@ yarn add -D babel-plugin-comments
 
 ## options
 
-**remove** (string) type specifies the type of comments you want to remove.
-
-Possible value:
-
-**all** (default): all comments will be removed;
-
-**CommentLine** : commentline will be removed(such as: ```//example```)
-
-**CommentBlock** : commentblock will be removed(such as: ```/* example*/```)
-
-**none** : nothing will be removed
-
-
+-  **remove** (string)  type specifies the type of comments you want to remove.
+		
+	Possible value：
+	```
+	none (default): nothing will be removed;
+	
+	all : all comments will be removed;
+	
+	line : commentline will be removed(such as: ```//example```);
+	
+	CommentLine : same as 'line';
+	
+	block : commentblock will be removed(such as: ```/* example*/```);
+	
+	CommentBlock : same as 'block';
+	
+	```
 ## Example
 
 babel method:
@@ -47,7 +53,7 @@ or babel.config.js:
     [
       'comments',
       {
-        remove: 'all',
+        remove: 'line',
       }
     ],
   ]
