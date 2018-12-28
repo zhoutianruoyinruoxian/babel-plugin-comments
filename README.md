@@ -25,17 +25,17 @@ yarn add -D babel-plugin-comments
 		
 	Possible value：
 	```
-	none (default): nothing will be removed;
+	- none (default): nothing will be removed;
 	
-	all : all comments will be removed;
+	- all: all comments will be removed;
 	
-	line : commentline will be removed(such as: ```//example```);
+	- line: commentline will be removed(such as: //example);
 	
-	CommentLine : same as 'line';
+	- CommentLine : same as 'line';
 	
-	block : commentblock will be removed(such as: ```/* example*/```);
+	- block: commentblock will be removed(such as: /* example*/);
 	
-	CommentBlock : same as 'block';
+	- CommentBlock: same as 'block';
 	
 	```
 ## Example
