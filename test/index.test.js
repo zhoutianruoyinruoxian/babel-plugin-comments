@@ -1,4 +1,4 @@
-import { transform } from '@babel/core';
+import { parse } from '@babel/core';
 import plugin from '../src/';
 
 const example = `
@@ -14,7 +14,11 @@ const example = `
   `;
 
 const testPlugin = (remove) => {
-  const { code } = transform(example, { plugins: [[plugin, { remove }]] });
+
+
+  const { code } = parse(example, { plugins: [[plugin, { remove }]] });
+
+  //未完成
   return code;
 };
 
